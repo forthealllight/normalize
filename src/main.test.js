@@ -1,5 +1,5 @@
 import {sum} from './sum';
-import {normalize,schema,denormalize} from './shopeelize/index.js';
+import {normalize,schema,denormalize} from './schema/index.js';
 //this is a jest test
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1,2)).toBe(3);
