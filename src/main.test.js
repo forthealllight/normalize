@@ -1,9 +1,4 @@
-import {sum} from './sum';
 import {normalize,schema,denormalize} from './schema/index.js';
-//this is a jest test
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1,2)).toBe(3);
-});
 //范式化数据用例，原始数据
 const originalData = {
   "id": "123",
